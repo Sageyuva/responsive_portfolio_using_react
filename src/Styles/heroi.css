@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,800&family=Poppins:ital,wght@0,300;1,200&family=Righteous&family=Roboto+Mono:wght@700&family=Smooch&display=swap');
+.heroimg {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+}
+
+.mask {
+    top: 16vh;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+    opacity: 20%;
+}
+
+.headtext {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    z-index: 50;
+    top: 30%;
+    left: 10%;
+}
+
+.headtext h2 {
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+.head2text {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(81, 11, 81);
+    z-index: 50;
+    top: 50%;
+    left: 10%;
+}
+
+.disc {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    z-index: 65;
+    top: 60%;
+    left: 10%;
+}
+
+.btn-1 {
+    position: absolute;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgb(247, 252, 123);
+    border-style: none;
+    border: solid 1px black;
+    border-radius: 15px;
+    z-index: 65;
+    top: 80%;
+    left: 10%;
+    width: 120px;
+    height: 40px;
+}
+
+.btn-2 {
+    position: absolute;
+    font-weight: 500;
+    font-size: 20px;
+    border-style: none;
+    border: solid 1px black;
+    border-radius: 15px;
+    background-color: white;
+    top: 80%;
+    left: 20%;
+    z-index: 65;
+    width: 120px;
+    height: 40px;
+}
+
+.btn-1:hover {
+    position: absolute;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: transparent;
+    border-style: none;
+    border: solid 1px black;
+    border-radius: 15px;
+    z-index: 65;
+    top: 80%;
+    left: 10%;
+    width: 120px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.btn-2:hover {
+    position: absolute;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: transparent;
+    border-style: none;
+    border: solid 1px black;
+    border-radius: 15px;
+    z-index: 65;
+    top: 80%;
+    left: 20%;
+    width: 120px;
+    height: 40px;
+    transition: 0.4s;
+}

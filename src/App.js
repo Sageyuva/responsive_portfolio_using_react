@@ -1,16 +1,18 @@
 import React from 'react';
+import ProC from '../src/components/ProC';
+
+import Navbar from './components/NavBar.js';
+import Heroi from './components/Heroi.js';
+
 
 function App() {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Heroi/>
+      < ProC/>
+      
+      
     </div>
   );
 }
